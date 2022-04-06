@@ -108,4 +108,15 @@
       <column name="name" value="ROLE_ADMIN"/>
     </insert>
   </changeSet>
+
+  <changeSet id="1.0.6" author="stepan.anfinogenov">
+    <insert tableName="users">
+      <column name="username" value="user_1"/>
+      <column name="email" value="email_@gmail.com"/>
+      <column name="first_name" value="first_name_1"/>
+      <column name="last_name" value="last_name_1"/>
+      <column name="password" value="password_1"/>
+      <column name="status" value="ACTIVE"/>
+    </insert>
+  </changeSet>
 </databaseChangeLog>
